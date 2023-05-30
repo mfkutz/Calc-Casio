@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.App {
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-container {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    gap: 4px;
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 23px;
+    color: rgb(194, 191, 191);
+}
+
+.model {
+    color: rgb(194, 191, 191);
+
+}
+
+.display-container {
+    display: flex;
+    justify-content: center;
+}
+
+.small-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    gap: 4px;
+
+}
+
+.message{
+    color: rgb(191, 40, 40);
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}

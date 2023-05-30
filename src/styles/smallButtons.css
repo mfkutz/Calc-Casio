@@ -1,0 +1,15 @@
+.small-buttons {
+    height: 28px;
+    background-color: rgb(18, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.green {
+    color: rgb(25, 231, 111);
+}

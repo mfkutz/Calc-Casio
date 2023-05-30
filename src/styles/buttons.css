@@ -1,0 +1,15 @@
+.buttons {
+    height: 50px;
+    background-color: rgb(77, 76, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.ac-del {
+    background-color: rgb(235, 42, 42);
+}
